@@ -1,5 +1,5 @@
 # SIDROID-21-12-2016
-Assurer une connexion sécurisé entre un terminal Android et le SI de l'entreprise.
+Assurer une connexion sécurisée entre un terminal Android et le SI de l'entreprise.
 
 
 Plusieurs mesures de sécurité : 
