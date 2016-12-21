@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+    android:text="@string/demande_de_certificat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cert_ask"
+    android:textColor="@android:color/holo_blue_dark"
+    android:textSize="25sp"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp" />
+
+    <Button
+android:id="@+id/Keychain_button"
+android:gravity="center"
+android:onClick="scanQR"
+android:text="@string/choose_cert"
+android:layout_width="150dp"
+android:layout_height="60dp"
+android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+style="@android:style/Widget.Button"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+            android:id="@+id/button"
+            android:gravity="center"
+            android:onClick="scanQR"
+            android:text="@string/qr_code"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            style="@android:style/Widget.Button"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/Keychain_button" />
+
+    <TextView
+    android:id="@+id/Scan_QRCODE"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:text="@string/select_option"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:textColor="@android:color/holo_blue_dark"
+    android:layout_marginTop="55dp"
+        android:layout_below="@+id/cert_ask"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rte_bien_001">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/goodbye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="102dp"
+            android:id="@+id/goodbye"
+            android:textSize="23sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="@string/reconnexion"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reconnect_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_marginTop="72dp"
+            android:layout_below="@+id/goodbye"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

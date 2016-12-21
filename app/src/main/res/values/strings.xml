@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SIDROID</string>
+    <string name="welcome">Bonjour</string>
+
+    <string name="no_internet">Pas de connexion internet détectée.</string>
+    <string name="actualiser">Actualiser</string>
+    <string name="connexion">Connexion en cours …</string>
+    <string name="root">Smartphone rooté, connexion impossible.</string>
+    <string name="exit">Déconnexion</string>
+
+    <string name="reconnexion">Reconnexion</string>
+    <string name="goodbye">A bientôt</string>
+    <string name="certif">Récupérer le certificat</string>
+    <string name="select_option">.Récupérer le certificat depuis le téléphone OU \n.En télécharger un en le scannant</string>
+    <string name="qr_code">Télécharger le certificat</string>
+    <string name="choose_cert">Récupérer le certificat</string>
+    <string name="acquisition_du_certificat">Acquisition du certificat</string>
+    <string name="demande_de_certificat">DEMANDE DE CERTIFICAT</string>
+</resources>
